@@ -1,0 +1,427 @@
+
+body{
+    font-family: "Cormorant Garamond", serif;
+    background-color: #98c9a3;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 18px;
+}
+li{
+    margin-right: 40px;
+}
+.cards-block{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.image-1{
+    width: 250px;
+    height: 250px;
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    border: 10px solid #edeec9;
+    transition: transform 0.3s ease;
+}
+.image-1:hover{
+    transform: scale(1.1);
+}
+.image-2{
+    width: 250px;
+    height: 250px;
+    background-image: url('img/2.jpg');
+    background-size: cover;
+    border: 10px solid #edeec9;
+    transition: transform 0.3s ease;
+}
+.image-2:hover{
+    transform: scale(1.1);
+}
+.image-3{
+    width: 250px;
+    height: 250px;
+    background-image: url('img/3.jpg');
+    background-size: cover;
+    border: 10px solid #edeec9;
+    transition: transform 0.3s ease;
+}
+.image-3:hover{
+    transform: scale(1.1);
+}
+.image-4{
+    width: 250px;
+    height: 250px;
+    background-image: url('img/4.jpg');
+    background-size: cover;
+    border: 10px solid #edeec9;
+    transition: transform 0.3s ease;
+}
+.image-4:hover{
+    transform: scale(1.1);
+}
+.title-home, .description{
+    text-align: center;
+}
+.problem{
+    box-shadow: -1px 9px 15px rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 0px 20px 30px;
+}
+.problem-p{
+    font-size: 16px;
+    margin-bottom: 50px;
+    height: 70px;
+}
+.problems{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.actual-problems{
+    padding: 50px;
+}
+.actual-problems h4{
+    font-size: 20px;
+}
+.subscribe-button{
+    border: 1px solid;
+    padding: 10px;
+    background-color: #F5F5F5;
+    font-size: 20px;
+}
+.sub-button-block{
+    margin-top: 15px;
+}
+.card{
+    text-align: center;
+    font-size: 16px;
+}
+.title-block{
+    margin-top: 100px;
+}
+h1{
+    font-size: 32px;
+}
+.learn-more{
+    padding: 10px;
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+    
+}
+.wind-block, .solar-block{
+    display: flex;
+    justify-content: space-between;
+}
+.wind-block{
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.wind-text{
+    margin-right: 50px;
+}
+.solar-text{
+    margin-left: 50px;
+}
+.energy-list-item{
+    font-size: 18px;
+}
+.green-energy p{
+    font-size: 20px;
+}
+.ef-cols{
+    display: flex;
+    justify-content: space-between;
+}
+p, li{
+    font-size: 24px;
+}
+.our-mission{
+    background-color: #edeec9;
+    padding: 50px 0;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-text{
+    margin-right: 50px;
+}
+.subscribe-text p{
+    margin: 0;
+    margin-bottom: 70px;
+}
+.subscribe-block{
+    padding: 50px 0;
+}
+.subscribe-block h1{
+    margin-bottom: 70px;
+}
+.sub-button-block{
+    text-align: center;
+}
+/*/ Футер */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.social-media p {
+    margin: 0 0 10px 0;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-copy p {
+    margin: 0;
+}
+.news-article {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.article-header h2 {
+    margin-top: 0;
+}
+
+.article-meta {
+    font-size: 14px;
+    color: #777;
+}
+
+.article-content p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.article-content h3 {
+    margin-top: 20px;
+}
+
+.article-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.article-content li{
+    font-size: 20px;
+}
+/*/ Модальное окно /*/
+
+.modal {
+    display: none; /* Изначально скрыто */
+    position: fixed; /* Оставаться на месте (заблокировать прокрутку страницы) */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включить прокрутку, если необходимо */
+    background-color: rgb(0,0,0); /* Цвет фона */
+    background-color: rgba(0,0,0,0.4); /* Черный с непрозрачностью */
+}
+
+/* Модальное содержимое/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% сверху и снизу и по центру */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Ширина больше 50% */
+    border-radius: 10px;
+}
+
+/* Кнопка закрытия (крестик) */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.articles {
+    margin-top: 20px;
+}
+
+.articles article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.articles h2 {
+    color: #333;
+}
+.articles a{
+    font-size: 20px;
+    color: blue;
+}
+.articles a:hover {
+    text-decoration: underline;
+}
+.eco-friendly{
+    padding-bottom: 100px;
+}
+.ef-second{
+    padding-left: 50px;
+    border-left: 1px solid;
+}
+.ef-second_five{
+    margin-top: 80px;
+}
+.ef-second_six{
+    margin-top: 30px;
+}
+.wild-nature p{
+    font-size: 20px;
+}
+.wild-nature h3{
+    font-size: 28px;
+    margin: 0;
+}
+.wild-nature h4{
+    font-size: 24px;
+}
+.wild-nature_block{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.wild-nature_block:nth-child(2), .wild-nature_block:nth-child(3) {
+    border-bottom: 1px solid;
+}
+.wild-nature_conservation{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* О нас */
+.about-us {
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.about-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-us ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-us ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+.about-us a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.about-us a:hover {
+    color: #0056b3;
+}
+.social-media p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-copy{
+    margin-top: 30px;
+}
